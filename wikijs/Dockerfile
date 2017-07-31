@@ -6,4 +6,4 @@ WORKDIR /wiki-js
 RUN npm install wiki.js@latest
 
 EXPOSE 80
-CMD ["wiki", "start"]
+CMD ["node", "wiki", "start"]
